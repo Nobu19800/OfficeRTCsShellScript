@@ -22,7 +22,7 @@ class ConsoleIn(OpenRTM_aist.DataFlowComponentBase):
         self._data = RTC.TimedString(RTC.Time(0,0),"")
         self._outport = OpenRTM_aist.OutPort("out", self._data)
 
-        self.wordList = ["これは","OpenOffice Writer","を操作するRTCです"]
+        self.wordList = ["これは","Word","を操作するRTCです"]
         self.count = 0
  
     def onInitialize(self):
