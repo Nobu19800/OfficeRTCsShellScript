@@ -1,4 +1,4 @@
-set host=".host_cxt"
+set host="Nobuhiko-PC.host_cxt"
 cmd /c rtcon /localhost/SEAT0.rtc:speechin /localhost/ConsoleIn0.rtc:out
 cmd /c rtcon /localhost/SEAT0.rtc:speechout /localhost/%host%/OpenJTalkRTC0.rtc:text
 cmd /c rtcon /localhost/SEAT0.rtc:speechout /localhost/WordControl0.rtc:word
